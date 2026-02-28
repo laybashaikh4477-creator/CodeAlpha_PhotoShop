@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1> Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="nature">Nature</button>
+    <button class="filter-btn" data-category="city">City</button>
+    <button class="filter-btn" data-category="animals">Animals</button>
+  </div>
+
+  <!-- Gallery Section -->
+  <div class="gallery">
+    <div class="image" data-category="nature">
+      <img src="https://picsum.photos/id/1015/400/300" alt="">
+    </div>
+
+    <div class="image" data-category="city">
+      <img src="https://img.freepik.com/free-photo/los-angeles-downtown-buildings-night_649448-298.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+    </div>
+
+    <div class="image" data-category="animals">
+      <img src="https://a-z-animals.com/media/animals/images/original/antelope_15.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="nature">
+      <img src="https://picsum.photos/id/1016/400/300" alt="">
+    </div>
+
+    <div class="image" data-category="nature">
+      <img src="https://img.freepik.com/free-photo/beautiful-lake-mountains_395237-44.jpg?semt=ais_wordcount_boost&w=740&q=80" alt="">
+    </div>
+
+    <div class="image" data-category="nature">
+      <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=2210&quality=70" alt="">
+    </div>
+
+    <div class="image" data-category="nature">
+      <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="city">
+      <img src="https://t4.ftcdn.net/jpg/02/83/83/93/360_F_283839302_yt6JIsE96Pj4PydFDcBNKDUnuSpYB9h0.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="animals">
+      <img src="https://c4.wallpaperflare.com/wallpaper/551/638/359/animal-images-baby-animals-cool-pictures-cute-animals-wallpaper-preview.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="city">
+      <img src="https://png.pngtree.com/thumb_back/fh260/png-vector/20200530/ourmid/pngtree-city-night-view-png-image_2213486.jpg" alt="">
+    </div>
+
+     <div class="image" data-category="city">
+      <img src="https://www.shutterstock.com/image-photo/stunning-view-new-york-city-600nw-2500167587.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="city">
+      <img src="https://img.freepik.com/free-photo/big-city_1127-3102.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+    </div>
+
+    <div class="image" data-category="animals">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/010/055/032/small/group-of-africa-animals-photo.jpg" alt="">
+    </div>
+
+
+
+    <div class="image" data-category="animals">
+      <img src="https://w0.peakpx.com/wallpaper/926/770/HD-wallpaper-giraffe-giraffe-animals.jpg" alt="">
+    </div>
+
+    <div class="image" data-category="animals">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20241010/pngtree-the-bengal-tiger-emblem-of-wild-image_16362570.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
